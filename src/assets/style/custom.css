@@ -1,0 +1,241 @@
+h1 {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    /* identical to box height */
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 165.9%;
+
+    /* or 40px */
+
+    color: rgba(255, 255, 255, 0.51);
+}
+
+.nav-button {
+    background: #288BCB;
+    border-radius: 32px;
+    padding: 10px 25px;
+}
+
+.nav-item {
+    margin: 0 28px;
+}
+
+.nav-group {
+    margin: 20px 0
+}
+
+.br-bottom {
+    border-bottom: 1px solid rgba(117, 117, 117, 0.55);
+}
+
+.custom-bg {
+    padding-top: 75px;
+    background: linear-gradient(to right, #FFF, rgba(171, 212, 239, 0.21));
+}
+
+.arrow-svg {
+    top: 40px;
+    right: 156px;
+}
+
+.person-bg {
+    background: url('../img/mission img.png');
+}
+
+.hangout-svg {
+    right: 240px;
+    top: -65px;
+}
+
+.arrow {
+    margin-bottom: 25px;
+}
+
+.footer-bg {
+    /*background-size: cover;*/
+
+    /*border: 2px solid black;*/
+    /*padding: 25px;*/
+    background: url('../img/Rectangle 166.png') no-repeat;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #0A2333;
+    color: #FFFFFF;
+    border-top: 1px solid rgba(255, 255, 255, 0.29);
+}
+
+.footer-item > li {
+    margin-top: 18px;
+}
+
+li.first-child {
+    margin-top: 24px !important;
+}
+
+::marker {
+    display: none !important;
+    color: #0A2333 !important;
+    background: #0A2333 !important;
+}
+
+.copy-righter {
+    background: #0A2333 !important;
+    text-align: center;
+    color: #fff;
+}
+
+.copy-righter p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: -0.02em;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.form-style {
+    top: 100px;
+
+}
+
+.form-group {
+    margin: 24px 0;
+}
+
+.w-full {
+    width: -webkit-fill-available;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.66);
+    opacity: 0.2;
+    border-radius: 5px;
+    padding: 18px auto;
+}
+
+
+input::placeholder {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    /* identical to box height, or 150% */
+    letter-spacing: -0.02em;
+
+    color: #BBB5E0;
+
+    opacity: 0.4;
+}
+
+.btn-primary-1 {
+    /* F9F9F9 */
+    background: #F9F9F9;
+    border-radius: 5px;
+    color: #000;
+}
+
+.p-part {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 165.9%;
+    /* or 20px */
+    text-align: center;
+    color: rgba(117, 117, 117, 0.7);
+}
+
+.p-part-1 {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 165.9%;
+    /* or 40px */
+
+
+    color: rgba(117, 117, 117, 0.7);
+}
+
+@media only screen and (min-width: 450px) {
+    .head-part-1 {
+        font-family: 'Gilroy', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 165.9%;
+        /* or 106px */
+
+
+        color: #000000;
+    }
+}
+
+.head-part-1 {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 165.9%;
+    /* or 106px */
+
+
+    color: #000000;
+}
+
+
+.pointer {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+}
+
+.active-nav-item {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 173.4%;
+    /* or 31px */
+
+
+    color: #000000;
+}
+
+.nav-item {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 173.4%;
+    /* or 31px */
+
+
+    /* 757575 */
+
+    color: #757575;
+}
